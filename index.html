@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World Travel</title>
+	<link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body ng-app="TravelApp">
+	<div ng-controller="BooksCtrl">
+	<div class="container">
+
+	<h1>helloo</h1>
+	<ul ng-repeat="guide in guides">
+	<li>Book Name: {{guide.title}}</li>
+	<li>Price: {{guide.price}}</li>
+	<li>Type: {{guide.type}}</li>
+	</ul>
+	</div>
+</div>
+<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js">
+</script>
+<script type="text/javascript" src="lib/bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="app/app.js"></script>
+</body>
+</html>
